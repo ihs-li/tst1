@@ -20,9 +20,10 @@
 
         <!-- RSyntaxTextArea依赖 -->
         <dependency>
-            <groupId>com.fifesoft</groupId>
+            <groupId>org.fife.ui</groupId>
             <artifactId>rsyntaxtextarea</artifactId>
-            <version>3.5.1</version>
+            <version>2.0.4.1</version>
+            <scope>compile</scope>
         </dependency>
 
         <!-- PDFBox依赖 -->
@@ -40,7 +41,6 @@
             <version>5.2.3</version> <!-- 使用最新版本 -->
             <scope>compile</scope>
         </dependency>
-
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
